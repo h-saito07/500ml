@@ -1,0 +1,66 @@
+html{
+    /* フォントを変更 */
+    font-family: serif;
+    height: 100%;
+}
+
+#body{
+    height: 100%;
+    margin: 0%;
+    font-weight: bold;
+    
+}
+
+#gameelement{
+    /* ３秒でフェードアウトさせる */
+    transition: opacity 3s;
+}
+
+#countdown{
+    display: table-cell;
+    float: right;
+    font-size: 100px;
+    padding: 5px 5%;
+    mix-blend-mode: difference;
+}
+
+#goal{
+    padding-left: 45%;
+    font-size: 40px;
+    color: #FFF;
+}
+
+#rest{
+    text-align: center;
+    font-size: 30px;
+    mix-blend-mode: difference;
+}
+
+#scoretext{
+    text-align: center;
+    font-size: 40px;
+}
+
+#scorenum{
+    text-align: center;
+    font-size: 40px;
+    mix-blend-mode: difference;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#amount{
+    mix-blend-mode: difference;
+}
+
+#again{
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+}

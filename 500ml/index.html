@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/start.css">
+        <title>500ml - トップ</title>
+    </head>
+
+    <body id="body">
+        <!-- 液体の量をカウントするタグ -->
+        <div id="count">0ml</div>
+
+        <!-- 選択項目を表示するタグ -->
+        <div id="jump">
+            <!-- 選択項目 ゲームスタート -->
+            <div id="gamestart_big">
+                <a id="gamestart" href="./html/game.html"></a>
+            </div><p></p>
+            <!-- 選択項目 ゲーム説明 -->
+            <div id="explanation_big">
+                <a id="explanation" href="./html/explanation.html"></a>
+            </div>
+        </div>
+        <!-- 波の表現を行うタグ -->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><path id="wave" d=""/></svg>
+
+        <!-- javascript -->
+        <script src="./js/jquery.js"></script>
+        <script src="./js/tweenmax.js"></script>
+        <script src="./js/wavify.js"></script>
+        <script src="./js/start.js"></script>
+    </body>
+
+</html>

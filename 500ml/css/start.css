@@ -1,0 +1,47 @@
+html{
+    /* フォントを変更 */
+    font-family: serif;
+    height: 100%;
+}
+
+#body{
+    height: 100%;
+    margin: 0%;
+    font-weight: bold;
+    color: #FFF;
+    /* 色を反転させる */
+    mix-blend-mode: difference;
+    text-align: center;
+}
+
+#count{
+    font-size: 70px;
+    padding-top: 70px;
+}
+
+#jump{
+    padding: 50px;
+    font-size: 20px;
+}
+
+#gamestart{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* ポインタが上に乗ったとき拡大させる */
+#gamestart_big:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+
+#explanation{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* ポインタが上に乗ったとき拡大させる */
+#explanation_big:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
